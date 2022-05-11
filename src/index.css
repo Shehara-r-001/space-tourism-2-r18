@@ -15,7 +15,23 @@
 }
 
 @layer components {
-  /* .bg-img-home {
-    background: url('../assets/home/background-home-mobile.jpg');
-  } */
+  .nav {
+    @apply bg-white flex items-center  mt-3 text-black w-[88vw] mx-auto px-4 py-2 h-[43vh];
+  }
+
+  .link-item {
+    @apply text-xl;
+  }
+
+  .link-span {
+    @apply mr-2 lg:ml-8;
+  }
+
+  .link {
+    @apply my-3 hover:font-medium;
+  }
+
+  .home-bg {
+    @apply bg-[url("https://github.com/Shehara-r-001/space-tourism-2-r18/blob/main/src/assets/home/background-home-mobile.jpg?raw=true")] md:bg-[url("https://github.com/Shehara-r-001/space-tourism-2-r18/blob/main/src/assets/home/background-home-desktop.jpg?raw=true")] sm:bg-[url("https://github.com/Shehara-r-001/space-tourism-2-r18/blob/main/src/assets/home/background-home-tablet.jpg?raw=true")];
+  }
 }

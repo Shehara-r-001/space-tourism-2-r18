@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div className='bg-[url("https://github.com/Shehara-r-001/space-tourism-2-r18/blob/main/src/assets/home/background-home-mobile.jpg?raw=true")] md:bg-[url("https://github.com/Shehara-r-001/space-tourism-2-r18/blob/main/src/assets/home/background-home-desktop.jpg?raw=true")] sm:bg-[url("https://github.com/Shehara-r-001/space-tourism-2-r18/blob/main/src/assets/home/background-home-tablet.jpg?raw=true")] h-screen bg-cover bg-no-repeat w-full bg-center'>
+    <div className='home-bg h-screen bg-cover bg-no-repeat w-full bg-center'>
       <div className='flex h-screen flex-col items-center justify-center lg:justify-start px-10 lg:flex-row transition-all duration-300'>
         <div className='lg:max-w-[40%] lg:ml-60 lg:mt-10'>
           <h1 className='flex flex-col items-center uppercase text-xl text-gray-300 lg:items-start'>
