@@ -30,7 +30,7 @@ const Header = () => {
 
   return (
     <>
-      <header className='absolute top-2 left-0 w-full flex justify-between'>
+      <header className='absolute top-2 left-0 w-full flex justify-between z-20'>
         <div>
           <Link to='/'>
             <img

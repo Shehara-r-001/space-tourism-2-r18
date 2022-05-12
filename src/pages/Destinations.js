@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Img } from 'react-image';
 import moon from '../assets/destination/image-moon.png';
+import mars from '../assets/destination/image-mars.png';
+import europa from '../assets/destination/image-europa.png';
+import titan from '../assets/destination/image-titan.png';
 import mbBG from '../assets/destination/background-destination-mobile.jpg';
 
 const data = require('../data.json');
@@ -18,7 +21,7 @@ const Destinations = () => {
         <div className='lg:w-[40vw]'>
           <div>
             <p className='text-center lg:text-3xl text-2xl uppercase font-medium'>
-              <span className='mr-2 text-4xl lg:text-5xl font-semibold'>
+              <span className='mr-2 text-gray-500 text-4xl lg:text-5xl font-semibold'>
                 01
               </span>
               Pick your destination
@@ -27,7 +30,17 @@ const Destinations = () => {
 
           <div>
             <img
-              src={moon}
+              src={
+                item === 0
+                  ? moon
+                  : item === 1
+                  ? mars
+                  : item === 2
+                  ? europa
+                  : item === 3
+                  ? titan
+                  : ''
+              }
               className='h-[200px] w-[200px] lg:h-[280px] lg:w-[280px] mx-auto mt-4 lg:mt-8'
               alt='ggg'
             />
@@ -35,9 +48,15 @@ const Destinations = () => {
         </div>
         <div className='w-full lg:w-[44vw]'>
           <div className='flex items-center justify-between w-[60%] mx-auto mt-4 max-w-[340px]'>
-            {dataDest.map((item, index) => (
-              <button key={index} className='lg:text-xl'>
-                {item.name}
+            {dataDest.map((moon, index) => (
+              <button
+                onClick={() => setItem(index)}
+                key={index}
+                className={`lg:text-xl uppercase ${
+                  index === item ? 'border-b' : ''
+                }`}
+              >
+                {moon.name}
               </button>
             ))}
           </div>
