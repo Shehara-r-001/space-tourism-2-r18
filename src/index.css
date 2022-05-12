@@ -34,4 +34,9 @@
   .home-bg {
     @apply bg-[url("https://github.com/Shehara-r-001/space-tourism-2-r18/blob/main/src/assets/home/background-home-mobile.jpg?raw=true")] md:bg-[url("https://github.com/Shehara-r-001/space-tourism-2-r18/blob/main/src/assets/home/background-home-desktop.jpg?raw=true")] sm:bg-[url("https://github.com/Shehara-r-001/space-tourism-2-r18/blob/main/src/assets/home/background-home-tablet.jpg?raw=true")];
   }
+
+  .dest-bg {
+    @apply bg-[url('https://github.com/Shehara-r-001/space-tourism-2-r18/blob/main/src/assets/destination/background-destination-mobile.jpg?raw=true')] sm:bg-[url('https://github.com/Shehara-r-001/space-tourism-2-r18/blob/main/src/assets/destination/background-destination-tablet.jpg?raw=true')]
+    md:bg-[url('https://github.com/Shehara-r-001/space-tourism-2-r18/blob/main/src/assets/destination/background-destination-desktop.jpg?raw=true')];
+  }
 }
