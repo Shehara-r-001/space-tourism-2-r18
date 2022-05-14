@@ -18,7 +18,7 @@ const Destinations = () => {
   return (
     <div className='dest-bg h-screen w-full'>
       <div className='absolute top-[80px] w-full lg:flex lg:justify-around lg:top-[30vh]'>
-        <div className='lg:w-[40vw]'>
+        <div className='lg:w-[50vw]'>
           <div>
             <p className='text-center lg:text-3xl text-2xl uppercase font-medium'>
               <span className='mr-2 text-gray-500 text-4xl lg:text-5xl font-semibold'>
@@ -41,7 +41,7 @@ const Destinations = () => {
                   ? titan
                   : ''
               }
-              className='h-[200px] w-[200px] lg:h-[280px] lg:w-[280px] mx-auto mt-4 lg:mt-8'
+              className='h-[200px] w-[200px] lg:h-[300px] lg:w-[300px] mx-auto mt-4 lg:mt-8'
               alt='ggg'
             />
           </div>

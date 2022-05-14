@@ -53,4 +53,8 @@
     @apply bg-[url('https://github.com/Shehara-r-001/space-tourism-2-r18/blob/main/src/assets/technology/background-technology-mobile.jpg?raw=true')] sm:bg-[url('https://github.com/Shehara-r-001/space-tourism-2-r18/blob/main/src/assets/technology/background-technology-tablet.jpg?raw=true')]
     md:bg-[url('https://github.com/Shehara-r-001/space-tourism-2-r18/blob/main/src/assets/technology/background-technology-desktop.jpg?raw=true')];
   }
+
+  .crew-btn {
+    @apply h-6 w-6 border rounded-full p-1 lg:h-10 lg:w-10 lg:p-3;
+  }
 }

@@ -14,13 +14,13 @@ const Crew = () => {
   const { name, images, role, bio } = dataCrew[item];
   return (
     <div className='crew-bg h-screen w-full object-cover'>
-      <div className='absolute top-[70px] left-[30vw] lg:left-0 lg:top-[24vh] text-center lg:text-3xl text-xl uppercase font-medium w-[40vw] lg:ml-[20vw]'>
+      <div className='absolute top-[70px] left-[30vw] lg:left-0 lg:top-[24vh] text-center lg:text-3xl text-xl uppercase font-medium w-[40vw] lg:ml-[10vw]'>
         <span className='mr-2 text-gray-500 lg:text-5xl font-semibold text-4xl'>
           02
         </span>
         Meet your crew
       </div>
-      <div className='absolute top-[70px] mt-8 w-full lg:justify-between lg:w-[80vw] lg:top-[30vh] sm:flex sm:flex-col-reverse lg:flex-row-reverse'>
+      <div className='absolute top-[70px] mt-8 w-full lg:justify-between lg:w-[90vw] lg:-left-[10vw] lg:top-[30vh] sm:flex sm:flex-col-reverse lg:flex-row-reverse'>
         <div className='mt-4 lg:absolute lg:-right-[120px] lg:-bottom-[100px]'>
           <img
             src={
@@ -38,7 +38,7 @@ const Crew = () => {
             className='h-[240px] object-cover mx-auto lg:h-[400px]'
           />
         </div>
-        <div className='w-full lg:flex lg:flex-col-reverse'>
+        <div className='w-full lg:flex lg:flex-col-reverse lg:mt-8'>
           <div className='flex w-[100px] lg:w-[160px] justify-between mx-auto mt-5 lg:mt-10'>
             {dataCrew.map((person, index) => (
               <button key={index} onClick={() => setItem(index)} className=''>
@@ -57,7 +57,7 @@ const Crew = () => {
             <h1 className='text-2xl sm:text-3xl lg:text-4xl lg:mt-4 uppercase my-2'>
               {name}
             </h1>
-            <div className='w-[300px] lg:w-[360px] lg:mt-6 lg-text-[16px] mx-auto text-sm mt-3 lg:text-justify'>
+            <div className='w-[300px] lg:w-[360px] lg:mt-6 lg:text-[16px] mx-auto text-sm mt-3 lg:text-justify'>
               {bio}
             </div>
           </div>

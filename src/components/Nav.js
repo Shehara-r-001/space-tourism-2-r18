@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Nav = ({ mWindow }) => {
+  const [active, setActive] = useState(false);
   return (
     <div>
       <ul className='flex bg-white-rgba mr-[10vw] mt-3 pr-2 justify-around w-[60vw] backdrop-blur-[2px]'>
