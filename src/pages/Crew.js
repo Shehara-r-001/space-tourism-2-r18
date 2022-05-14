@@ -14,7 +14,7 @@ const Crew = () => {
   const { name, images, role, bio } = dataCrew[item];
   return (
     <div className='crew-bg h-screen w-full object-cover'>
-      <div className='absolute top-[70px] left-[30vw] lg:left-0 lg:top-[24vh] text-center lg:text-3xl text-xl uppercase font-medium w-[40vw] lg:ml-[10vw]'>
+      <div className='absolute top-[70px] left-[20vw] sm:left-[30vw] lg:left-0 lg:top-[24vh] text-center lg:text-3xl text-xl uppercase font-medium sm:w-[40vw] w-[60vw] lg:ml-[10vw]'>
         <span className='mr-2 text-gray-500 lg:text-5xl font-semibold text-4xl'>
           02
         </span>
