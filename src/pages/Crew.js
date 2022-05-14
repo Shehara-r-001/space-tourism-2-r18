@@ -20,7 +20,7 @@ const Crew = () => {
         </span>
         Meet your crew
       </div>
-      <div className='absolute top-[70px] mt-8 w-full lg:justify-between lg:w-[90vw] lg:-left-[10vw] lg:top-[30vh] sm:flex sm:flex-col-reverse lg:flex-row-reverse'>
+      <div className='absolute top-[70px] mt-[64px] w-full lg:justify-between lg:w-[90vw] lg:-left-[10vw] lg:top-[30vh] sm:flex sm:flex-col-reverse lg:flex-row-reverse'>
         <div className='mt-4 lg:absolute lg:-right-[120px] lg:-bottom-[100px]'>
           <img
             src={
