@@ -5,24 +5,25 @@ const Nav = ({ mWindow }) => {
   const [active, setActive] = useState(false);
   return (
     <div>
-      <ul className='flex bg-white-rgba mr-[10vw] mt-3 pr-2 justify-around w-[60vw] backdrop-blur-[2px]'>
+      <ul className='flex bg-white-rgba mr-[10vw] uppercase mt-3 pr-2 justify-around w-[60vw] backdrop-blur-[2px]'>
         <li className='link'>
-          <Link className='link-item' to='/'>
-            <span className='link-span font-bold'>00</span>Home
+          <Link className='link-item group' to='/'>
+            <span className='link-span font-bold '>00</span>
+            Home
           </Link>
         </li>
         <li className='link'>
-          <Link className='link-item' to='/destination'>
+          <Link className='link-item group' to='/destination'>
             <span className='link-span font-bold'>01</span>Destinations
           </Link>
         </li>
-        <li className='link'>
-          <Link className='link-item' to='/crew'>
+        <li className={`link`}>
+          <Link className='link-item group' to='/crew'>
             <span className='link-span font-bold'>02</span>Crew
           </Link>
         </li>
         <li className='link'>
-          <Link className='link-item' to='/technology'>
+          <Link className='link-item group' to='/technology'>
             <span className='link-span font-bold'>03</span>Technology
           </Link>
         </li>

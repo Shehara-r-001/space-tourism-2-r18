@@ -52,7 +52,7 @@ const Destinations = () => {
               <button
                 onClick={() => setItem(index)}
                 key={index}
-                className={`lg:text-xl uppercase ${
+                className={`lg:text-xl hover:scale-105 transition duration-300 uppercase ${
                   index === item ? 'border-b' : ''
                 }`}
               >

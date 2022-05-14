@@ -20,15 +20,15 @@
   }
 
   .link-item {
-    @apply text-xl;
+    @apply text-xl active:text-black;
   }
 
   .link-span {
-    @apply mr-2 lg:ml-8;
+    @apply mr-2 lg:ml-8 group-hover:text-gray-300 transition duration-200 ease-in;
   }
 
   .link {
-    @apply my-3 hover:font-medium;
+    @apply my-3 hover:font-medium hover:scale-105 transition duration-300;
   }
 
   .home-bg {
@@ -46,7 +46,7 @@
   }
 
   .dot-icon {
-    @apply h-3 w-3 lg:h-4 lg:w-4;
+    @apply h-3 w-3 lg:h-4 lg:w-4 hover:scale-110 transition duration-300;
   }
 
   .tech-bg {
@@ -55,6 +55,6 @@
   }
 
   .crew-btn {
-    @apply h-6 w-6 border rounded-full p-1 lg:h-10 lg:w-10 lg:p-3;
+    @apply h-6 w-6 border rounded-full p-1 lg:h-10 lg:w-10 lg:p-3 hover:scale-105 transition duration-300;
   }
 }
