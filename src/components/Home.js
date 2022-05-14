@@ -21,7 +21,7 @@ const Home = () => {
         </div>
         <div>
           <button className='h-40 w-40 lg:h-56 lg:w-56 lg:mt-20 text-xl text-gray-600 bg-white rounded-full uppercase mt-10 animate-pulse font-semibold lg:ml-[180px] lg:text-2xl'>
-            <Link to='/destinaton'>Explore</Link>
+            <Link to='/destination'>Explore</Link>
           </button>
         </div>
       </div>
